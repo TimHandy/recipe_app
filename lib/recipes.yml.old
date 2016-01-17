@@ -1,0 +1,91 @@
+
+--- !ruby/object:MainCourse
+name: BBQ Chicken Pizza
+date_added: 2015-11-22 19:19:19.340371000 +00:00
+healthy: true
+ingredients: meat stuff 100g, Flour 200ml, Eggs x3
+protein_source: Chicken
+prep_time: 5
+cook_time: 25
+instructions: This is how we do it.... , then we do the other, and now it's done!
+favorite: true
+--- !ruby/object:Dessert
+name: custard
+date_added: 2015-11-22 19:19:21.506875000 +00:00
+healthy: true
+ingredients: meat stuff 100g, Flour 200ml, Eggs x3
+protein_source: Chicken
+prep_time: 5
+cook_time: 5
+instructions: This is how we do it.... , then we do the other, and now it's done!
+--- !ruby/object:MainCourse
+name: sausage pasta
+date_added: 2015-11-22 19:19:42.198701000 +00:00
+healthy: true
+ingredients: sausage stuff 100g, Flour 200ml, Eggs x3
+protein_source: Chicken
+prep_time: 5
+cook_time: 25
+instructions: This is how we do it.... , then we do the other, and now it's done!
+--- !ruby/object:MainCourse
+name: meatballs
+date_added: 2015-11-23 20:55:30.003934000 +00:00
+healthy: true
+ingredients: meat stuff 100g, garlic, Flour 200ml, Eggs x3
+protein_source: Chicken
+prep_time: 5
+cook_time: 25
+instructions: This is how we do it.... , then we do the other, and now it's done!
+--- !ruby/object:MainCourse
+name: chicken pie
+date_added: 2015-11-28 18:07:04.069243000 +00:00
+healthy: true
+ingredients: meat stuff 100g, Flour 200ml, Eggs x3
+protein_source: Chicken
+prep_time: 5
+cook_time: 25
+instructions: This is how we do it.... , then we do the other, and now it's done!
+favorite: true
+difficulty: high
+--- !ruby/object:MainCourse
+name: garlic pasta
+date_added: 2015-11-29 08:39:12.385760000 +00:00
+healthy: true
+ingredients: meat stuff 100g, Garlic, Flour 200ml, Eggs x3
+protein_source: Chicken
+prep_time: 5
+cook_time: 25
+instructions: This is how we do it.... , then we do the other, and now it's done!
+--- !ruby/object:MainCourse
+name: potato bake
+date_added: 2015-11-29 08:40:08.014818000 +00:00
+healthy: true
+ingredients: meat stuff 100g, Flour 200ml, Eggs x3
+protein_source: None
+vegetarian: true
+prep_time: 5
+cook_time: 25
+instructions: This is how we do it.... , then we do the other, and now it's done!
+--- !ruby/object:MainCourse
+name: Joylent
+date_added: 2015-11-29 09:26:04.655860000 +00:00
+healthy: true
+ingredients: meat stuff 100g, Flour 200ml, Eggs x3
+protein_source: Whey
+vegetarian: true
+prep_time: 5
+cook_time: 25
+instructions: This is how we do it.... , then we do the other, and now it's done!
+difficulty: low
+favorite: true
+--- !ruby/object:MainCourse
+name: Banana Milkshake
+date_added: 2015-12-07 13:16:22.604977745 +00:00
+healthy: true
+ingredients: banana, milk 300g
+protein_source: Whey
+vegetarian: true
+prep_time: 5
+cook_time: 0
+instructions: whiz banana and milk in blender
+difficulty: low

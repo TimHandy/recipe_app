@@ -1,0 +1,17 @@
+---
+Banana pie: !ruby/object:Recipe
+  recipe_name: Banana pie
+  date_added: 2015-11-29 18:38:59.940780966 +00:00
+  healthy: true
+  ingredients: Ingredients here
+  instructions: Bake pie
+  difficulty: unknown
+  prep_time: 20
+Sausage mash: !ruby/object:Recipe
+  recipe_name: sausage mash
+  date_added: 2015-11-29 18:38:59.940834393 +00:00
+  healthy: true
+  ingredients: Ingredients here
+  instructions: mash tatties, cook sausages
+  difficulty: unknown
+  prep_time: 5

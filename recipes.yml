@@ -1,0 +1,153 @@
+---
+2: !ruby/object:Recipe
+  name: BBQ Chicken Pizza
+  date_added: 2015-12-13 15:22:04.681110024 +00:00
+  healthy: true
+  ingredients: meat stuff 100g, Flour 200ml, Eggs x3
+  instructions: This is how we do it.... , then we do the other, and now it's done!
+  type: Main
+  serves: '1'
+  protein_source: Chicken
+  prep_time: '5'
+  cook_time: '25'
+  id: 2
+3: !ruby/object:Recipe
+  name: Custard
+  date_added: 2015-12-13 15:26:07.711412778 +00:00
+  healthy: false
+  ingredients: egg, flour, sugar
+  instructions: Beat it
+  type: Dessert
+  serves: 50ml
+  protein_source: ''
+  prep_time: '3'
+  cook_time: '5'
+  id: 3
+4: !ruby/object:Recipe
+  name: Sausage Pasta
+  date_added: 2015-12-13 15:38:41.110671860 +00:00
+  healthy: true
+  ingredients: sausage stuff 100g, Flour 200ml, Eggs x3
+  instructions: This is how we do it.... , then we do the other, and now it's done!
+  type: Main
+  protein_source: Sausage
+  prep_time: '10'
+  cook_time: '25'
+  id: 4
+5: !ruby/object:Recipe
+  name: meatballs
+  date_added: 2015-12-13 15:40:38.919047454 +00:00
+  healthy: true
+  ingredients: Meat stuff 100g, garlic, Flour 200ml, Eggs x3
+  instructions: This is how we do it.... , then we do the other, and now it's done!
+  type: Main
+  protein_source: Beef
+  prep_time: '5'
+  cook_time: '25'
+  id: 5
+6: !ruby/object:Recipe
+  name: chicken pie
+  date_added: 2015-12-13 15:43:19.665065694 +00:00
+  healthy: true
+  ingredients: meat stuff 100g, Flour 200ml, Eggs x3
+  instructions: This is how we do it.... , then we do the other, and now it's done!
+  type: Main
+  protein_source: Chicken
+  prep_time: '25'
+  cook_time: '40'
+  id: 6
+7: !ruby/object:Recipe
+  name: Vegan chicken
+  date_added: 2016-01-09 13:14:37.498091097 +00:00
+  healthy: true
+  ingredients: Quorn, pastry
+  instructions: make pastry, cook
+  type: Main
+  protein_source: Quorn
+  prep_time: '10'
+  cook_time: '20'
+  id: 7
+9: !ruby/object:Recipe
+  name: Potatoes And Cheese
+  date_added: 2016-01-11 20:14:51.192844612 +00:00
+  healthy: true
+  ingredients: ''
+  instructions: ''
+  type: ''
+  serves: ''
+  protein_source: ''
+  prep_time: ''
+  cook_time: ''
+  id: 9
+10: !ruby/object:Recipe
+  name: This Is My Title
+  date_added: 2016-01-11 20:17:57.490727744 +00:00
+  healthy: true
+  ingredients: This And That, Some Of The Other, 20ml Water
+  instructions: Make it in a bowl
+  type: Main
+  serves: seven
+  protein_source: Pig
+  prep_time: '20'
+  cook_time: '20'
+  id: 10
+11: !ruby/object:Recipe
+  name: Chicken Pie
+  date_added: 2016-01-11 20:19:31.578806326 +00:00
+  healthy: true
+  ingredients: Meat stuff 100g, flour 200ml, eggs x3
+  instructions: This is how we do it.... , then we do the other, and now it's done!
+  type: Main
+  serves: '4'
+  protein_source: Chicken
+  prep_time: '25'
+  cook_time: '40'
+  id: 11
+17: !ruby/object:Recipe
+  name: Bananas N Stuff
+  date_added: 2016-01-11 21:47:47.324322166 +00:00
+  healthy: true
+  ingredients: ''
+  instructions: ''
+  type: ''
+  serves: ''
+  protein_source: ''
+  prep_time: ''
+  cook_time: ''
+  id: 17
+18: !ruby/object:Recipe
+  name: Vegan Chicken
+  date_added: 2016-01-11 21:58:46.801285868 +00:00
+  healthy: true
+  ingredients: Quorn, pastry
+  instructions: Make pastry, cook
+  type: Main
+  serves: '2'
+  protein_source: Quorn
+  prep_time: '10'
+  cook_time: '20'
+  id: 18
+19: !ruby/object:Recipe
+  name: Meatballs
+  date_added: 2016-01-11 22:15:37.942963012 +00:00
+  healthy: true
+  ingredients: Meat stuff 100g, garlic, flour 200ml, eggs x3
+  instructions: This is how we do it.... , then we do the other, and now it's done!
+  type: Main
+  serves: ''
+  protein_source: Beef
+  prep_time: '5'
+  cook_time: '25'
+  id: 19
+20: !ruby/object:Recipe
+  name: Chicken Pie
+  date_added: 2016-01-16 15:03:14.154408744 +00:00
+  healthy: true
+  ingredients: Meat stuff 100g, flour 200ml, eggs x3
+  instructions: This is how we do it.... , then we do the other, and now it's done!
+  type: Main
+  serves: '4'
+  protein_source: Chicken
+  prep_time: '25'
+  cook_time: '40'
+  id: 20
