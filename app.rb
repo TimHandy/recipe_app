@@ -14,12 +14,14 @@ end
 
 # Display all recipes route
 get('/recipes') do
+	@title = "All My Recipes"
 	@recipes = store.all
 	slim :index
 end
 
 # TODO: Do I need this route at all?
 get('/recipes/new') do
+	@title = "Create A New Recipe"
 	@recipe = Recipe.new  # From a slightly different guide: "This simply creates a new recipe object and stores it in the instance variable @recipe, which will be available in the view. We probably won’t need this object at the moment, but in the future we might be using the same form to edit a page as we do to create a new one. The edit form will have references to the recipe that is being edited, which will be the @recipe instance variable. If this didn’t exist then we’d get errors, so we just create a new Recipe object to avoid this."
 	slim :new
 end
@@ -44,6 +46,7 @@ end
 get('/recipes/:id') do
   id = params['id'].to_i
   @recipe = store.find(id)
+	@ingredients_arr = @recipe.ingredients.split(", ")
   slim :show
 end
 
@@ -72,6 +75,7 @@ end
 get '/recipes/:id/edit' do
 	id = params['id'].to_i
 	@recipe = store.find(id)
+	@title = "Edit Recipe: #{@recipe.name}"
 	slim :edit
 end
 

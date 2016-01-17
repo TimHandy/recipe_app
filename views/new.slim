@@ -1,4 +1,4 @@
-h1 Add New Recipe
+h1 == @title
 
 form action="/recipes/create" method="post" 
   table
@@ -22,13 +22,13 @@ form action="/recipes/create" method="post"
       td: input type="text" name="cook_time" 
     tr
       td: label for="ingredients" Ingredients:
-      td: input type="text" name="ingredients" 
+      td: textarea cols="50" rows="10" name="ingredients" placeholder="Separate ingredients with commas, e.g. Flour 50g, Sultanas 20g, ..."
     tr
       td: label for="instructions" Instructions:
-      td: textarea name="instructions" placeholder="Instructions..."  
+      td: textarea cols="50" rows="10" name="instructions" placeholder="Instructions..."  
     tr
       td: label for="comments" Comments:
-      td: textarea name="comments" placeholder="Comments..."
+      td: textarea cols="50" rows="10" name="comments" placeholder="Comments..."
     tr
       td
       td: input type="submit" value="+ Add Recipe" 

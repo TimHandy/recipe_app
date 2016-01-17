@@ -1,4 +1,4 @@
-h1 Update Recipe
+h1 == @title
 
 form action="/recipes/#{@recipe.id}" method="post" id="edit"
   input type="hidden" name="_method" value="put"
@@ -23,13 +23,13 @@ form action="/recipes/#{@recipe.id}" method="post" id="edit"
         td: input type="text" name="cook_time" value="#{@recipe.cook_time}"
       tr 
         td: label for="ingredients" Ingredients:
-        td: input type="text" name="ingredients" value="#{@recipe.ingredients}" 
+        td: textarea cols="50" rows="10" name="ingredients" #{@recipe.ingredients}
       tr 
         td: label for="instructions" Instructions:
-        td: textarea name="instructions" #{@recipe.instructions}
+        td: textarea cols="50" rows="10" name="instructions" #{@recipe.instructions}
       tr 
         td: label for="comments" Comments:
-        td: textarea name="comments" #{@recipe.comments}
+        td: textarea cols="50" rows="10" name="comments" #{@recipe.comments}
       tr   
         td
         td: input type="submit" value="Update Recipe" 

@@ -1,15 +1,47 @@
 ---
 2: !ruby/object:Recipe
-  name: BBQ Chicken Pizza
+  name: Barbeque Chicken Pizza
   date_added: 2015-12-13 15:22:04.681110024 +00:00
   healthy: true
-  ingredients: meat stuff 100g, Flour 200ml, Eggs x3
-  instructions: This is how we do it.... , then we do the other, and now it's done!
+  ingredients: Meat stuff 100g, flour 200ml, eggs x3, water, 100ml, tomato sauce 100ml
+  instructions: "This is how we do it.... , then we do the other, stick it in the
+    oven, and now it's done!\r\n\r\nlorem ipsum dolor sit amet, consectetur adipiscing
+    elit. etiam tincidunt imperdiet arcu vitae mattis. nullam eu dignissim justo.
+    in nulla magna, blandit rhoncus condimentum non, porta a ligula. aliquam id lacus
+    in tellus ornare lacinia nec et tortor. duis ultricies elementum purus, vitae
+    vestibulum sem maximus ut. mauris accumsan accumsan sollicitudin. proin sed massa
+    in eros semper ultricies sit amet vitae risus. nam aliquam dolor justo, sed rutrum
+    ante fringilla accumsan. aliquam at nisl metus. donec mi mauris, tincidunt vitae
+    tincidunt non, semper ut neque. nunc pulvinar sapien orci, et posuere arcu fringilla
+    at. vestibulum sed posuere lectus, non bibendum libero. cras dignissim semper
+    nulla, eget efficitur leo lobortis at. curabitur elementum orci venenatis metus
+    pharetra, non congue mauris scelerisque. sed id metus magna.\r\n\r\nut in pharetra
+    eros. praesent a venenatis lacus. praesent molestie nisi at eros ornare condimentum.
+    integer eget lectus quam. phasellus elit neque, ultricies quis rutrum sed, fringilla
+    et velit. quisque at libero eros. ut quis eleifend ex. suspendisse vel felis ex.
+    vivamus non augue a tortor pellentesque bibendum in at dui. mauris a sem eget
+    magna aliquam scelerisque quis et mi."
   type: Main
   serves: '1'
   protein_source: Chicken
   prep_time: '5'
   cook_time: '25'
+  comments: "Ooh pizza is good.\r\n\r\nlorem ipsum dolor sit amet, consectetur adipiscing
+    elit. etiam tincidunt imperdiet arcu vitae mattis. nullam eu dignissim justo.
+    in nulla magna, blandit rhoncus condimentum non, porta a ligula. aliquam id lacus
+    in tellus ornare lacinia nec et tortor. duis ultricies elementum purus, vitae
+    vestibulum sem maximus ut. mauris accumsan accumsan sollicitudin. proin sed massa
+    in eros semper ultricies sit amet vitae risus. nam aliquam dolor justo, sed rutrum
+    ante fringilla accumsan. aliquam at nisl metus. donec mi mauris, tincidunt vitae
+    tincidunt non, semper ut neque. nunc pulvinar sapien orci, et posuere arcu fringilla
+    at. vestibulum sed posuere lectus, non bibendum libero. cras dignissim semper
+    nulla, eget efficitur leo lobortis at. curabitur elementum orci venenatis metus
+    pharetra, non congue mauris scelerisque. sed id metus magna.\r\n\r\nut in pharetra
+    eros. praesent a venenatis lacus. praesent molestie nisi at eros ornare condimentum.
+    integer eget lectus quam. phasellus elit neque, ultricies quis rutrum sed, fringilla
+    et velit. quisque at libero eros. ut quis eleifend ex. suspendisse vel felis ex.
+    vivamus non augue a tortor pellentesque bibendum in at dui. mauris a sem eget
+    magna aliquam scelerisque quis et mi."
   id: 2
 3: !ruby/object:Recipe
   name: Custard
@@ -45,21 +77,21 @@
   protein_source: Beef
   prep_time: '5'
   cook_time: '25'
-  id: 5
   comments: "  "
+  id: 5
 7: !ruby/object:Recipe
-  name: Vegan Chickens
+  name: Vegan Chicken
   date_added: 2016-01-09 13:14:37.498091097 +00:00
   healthy: true
-  ingredients: Quorn, pastry
-  instructions: 'Make pastry, cook    '
+  ingredients: Quorn, pastry, veg, spices, rice
+  instructions: Make pastry, cook, do rice
   type: Main
   serves: ''
   protein_source: Quorn
   prep_time: '10'
   cook_time: '20'
+  comments: It tastes like chicken
   id: 7
-  comments: "  asd  "
 9: !ruby/object:Recipe
   name: Potatoes And Cheese
   date_added: 2016-01-11 20:14:51.192844612 +00:00
@@ -72,18 +104,6 @@
   prep_time: ''
   cook_time: ''
   id: 9
-17: !ruby/object:Recipe
-  name: Bananas N Stuff
-  date_added: 2016-01-11 21:47:47.324322166 +00:00
-  healthy: true
-  ingredients: ''
-  instructions: ''
-  type: ''
-  serves: ''
-  protein_source: ''
-  prep_time: ''
-  cook_time: ''
-  id: 17
 20: !ruby/object:Recipe
   name: Chicken Pie
   date_added: 2016-01-16 15:03:14.154408744 +00:00
@@ -95,18 +115,44 @@
   protein_source: Chicken
   prep_time: '25'
   cook_time: '40'
-  id: 20
   comments: Adsfgh
+  id: 20
 21: !ruby/object:Recipe
   name: Hummous
   date_added: 2016-01-17 15:43:00.580535260 +00:00
   healthy: true
-  ingredients: 'Chick peas, '
+  ingredients: Chick peas, chilli, something else, garlic
   instructions: 'Do stuff   '
   type: Side
   serves: '4'
   protein_source: Chick pea
   prep_time: '20'
   cook_time: '0'
-  id: 21
   comments: 'It''s nicey '
+  id: 21
+22: !ruby/object:Recipe
+  name: Soup
+  date_added: 2016-01-17 16:24:08.149914016 +00:00
+  healthy: true
+  ingredients: Lentils 50g, toothpaste 1 tube, tomatoes x5
+  instructions: Boil it up, zshush it.
+  type: Main
+  serves: '2'
+  protein_source: Lentils
+  prep_time: '15'
+  cook_time: '20'
+  comments: It's minty fresh!
+  id: 22
+23: !ruby/object:Recipe
+  name: Guacamole
+  date_added: 2016-01-17 17:03:53.582737754 +00:00
+  healthy: true
+  ingredients: Avacado, garlic, lime
+  instructions: Mash it ta-gevver
+  type: Side
+  serves: '2'
+  protein_source: Avacado
+  prep_time: '10'
+  cook_time: '0'
+  comments: Needs tortilla chips.
+  id: 23
