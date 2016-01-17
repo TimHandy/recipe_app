@@ -1,7 +1,6 @@
 h1 My Recipes
-ul
-  /TODO: try to make this list of recipes alphabetised
-  - @recipes.each do |recipe|
-    li: a href="recipes/#{recipe.id}" #{recipe.name}
-
 a href="/recipes/new" Add New Recipe
+ul
+
+  - @recipes.sort{ |a,b| a.name <=> b.name }.each do |recipe|
+    li: a href="recipes/#{recipe.id}" #{recipe.name}

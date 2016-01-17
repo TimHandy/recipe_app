@@ -26,10 +26,10 @@ form action="/recipes/#{@recipe.id}" method="post" id="edit"
         td: input type="text" name="ingredients" value="#{@recipe.ingredients}" 
       tr 
         td: label for="instructions" Instructions:
-        td: textarea name="instructions" #{@recipe.instructions}  
+        td: textarea name="instructions" #{@recipe.instructions}
       tr 
         td: label for="comments" Comments:
-        td: textarea name="comments" #{@recipe.comments}  
+        td: textarea name="comments" #{@recipe.comments}
       tr   
         td
         td: input type="submit" value="Update Recipe" 
