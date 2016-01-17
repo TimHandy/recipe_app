@@ -36,6 +36,7 @@ post('/recipes/create') do
 	@recipe.cook_time = params['cook_time']
 	@recipe.ingredients = params['ingredients'].capitalize
 	@recipe.instructions = params['instructions'].capitalize
+	@recipe.comments = params['comments'].capitalize
 	store.save(@recipe)
 	redirect '/recipes/new'
 end
@@ -62,6 +63,7 @@ put '/recipes/:id' do
 	@recipe.cook_time = params['cook_time']
 	@recipe.ingredients = params['ingredients'].capitalize
 	@recipe.instructions = params['instructions'].capitalize
+	@recipe.comments = params['comments'].capitalize
 	store.save(@recipe)
 	redirect "/recipes/#{@recipe.id}"
 end

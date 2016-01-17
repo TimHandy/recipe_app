@@ -27,6 +27,9 @@ form action="/recipes/#{@recipe.id}" method="post" id="edit"
       tr 
         td: label for="instructions" Instructions:
         td: textarea name="instructions" #{@recipe.instructions}  
+      tr 
+        td: label for="comments" Comments:
+        td: textarea name="comments" #{@recipe.comments}  
       tr   
         td
         td: input type="submit" value="Update Recipe" 

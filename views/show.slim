@@ -3,30 +3,27 @@ table
   tr
     td: strong Name:
     td = @recipe.name
-
   tr
     td: strong Type:
     td = @recipe.type
-    
   tr
     td: strong Serves:
     td = @recipe.serves
-
   tr
     td: strong Prep Time:
     td = @recipe.prep_time
-
   tr
     td: strong Cook Time:
     td = @recipe.cook_time
-
   tr
     td: strong Ingredients:
     td = @recipe.ingredients
-
   tr
     td: strong Instructions:
     td = @recipe.instructions
+  tr
+    td: strong Comments:
+    td = @recipe.comments
 
 p
   a href="/recipes/#{@recipe.id}/edit" Edit Recipe</a> or 

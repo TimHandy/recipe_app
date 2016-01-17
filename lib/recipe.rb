@@ -30,7 +30,7 @@ require 'slim'
 
 
 class Recipe
-	attr_accessor :name, :ingredients, :instructions, :prep_time, :cook_time, :serves, :difficulty, :favorite, :healthy, :protein_source, :vegetarian, :date_added, :type, :id
+	attr_accessor :name, :ingredients, :instructions, :prep_time, :cook_time, :serves, :difficulty, :favorite, :healthy, :protein_source, :vegetarian, :date_added, :type, :comments, :id
 
 	def initialize(name: "Unknown")
 		self.name = name # used self. instead of @ to refer the code directly to the attr_accessor methods. This will still work if I create a manual attr_writer/reader method for validation purposes. This prevents duplication of code.
