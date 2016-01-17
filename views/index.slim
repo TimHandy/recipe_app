@@ -1,6 +1,17 @@
 h1 == @title
 a href="/recipes/new" Add New Recipe
+p TODO: List of recipes by category: Main/Dessert/Side
 ul
 
   - @recipes.sort{ |a,b| a.name <=> b.name }.each do |recipe|
     li: a href="recipes/#{recipe.id}" #{recipe.name}
+
+p TODO: Display mealplan for the week - 6 random main course recipes, include 2 fish and 1 red meat etc, must contain a Tim's favorite. 
+p TODO: Display out the ingredients for the 6 meals by checking against shopping list
+p TODO: Display mealplan without garlic
+p TODO: Display a random dinner / pick a random favourite
+p TODO: Display recipes containing the word/s x in name
+p TODO: If weekend allow not healthy in selecting/generating meals
+p TODO: Display vege/vegan meals
+p TODO: Display recipes containing >= 1 of a list of ingredients entered, in order of most ingredients found
+p TODO: Add a search function

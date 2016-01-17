@@ -147,7 +147,7 @@
   name: Guacamole
   date_added: 2016-01-17 17:03:53.582737754 +00:00
   healthy: true
-  ingredients: Avacado, garlic, lime
+  ingredients: Avacado x1 medium, garlic, lime
   instructions: Mash it ta-gevver
   type: Side
   serves: '2'
@@ -156,3 +156,19 @@
   cook_time: '0'
   comments: Needs tortilla chips.
   id: 23
+24: !ruby/object:Recipe
+  name: Almond Butter
+  date_added: 2016-01-17 18:24:20.532008602 +00:00
+  healthy: true
+  ingredients: Almonds 400g, salt 1/2 teaspoon
+  instructions: Preheat oven to 180 degrees fan, put almonds on baking tray and roast
+    for 10 min. allow to cool. put in powerful food processor for 15min with salt,
+    occasionally stopping to mix. blend until thick and creamy.
+  type: Side
+  serves: 1 jar
+  protein_source: Almonds
+  prep_time: '0'
+  cook_time: '25'
+  comments: Need a powerful processor or it won't go creamy. store in a jar or other
+    airtight container.
+  id: 24

@@ -101,9 +101,6 @@ def vege_recipes(recipes)
 	vege_recipes
 end
 
-# TODO: recipe.new - should this be from the web form?
-
-# TODO: list recipes - on the web form?
 
 # Generate 6 random recipes for the week
 def six_random_recipes(recipes_arr)
@@ -123,8 +120,6 @@ def grocery_list
 end
 
 # IDEA: Generate 6 random recipes that don't have garlic? or just omit the garlic when you make it?
-
-# TODO: delete a recipe
 
 # IDEA: Search for non-garlic... tick box
 # List those where ingredients !include('garlic')
@@ -172,7 +167,7 @@ end
 
 # IDEA: Pick a dinner containing the word/s x in ingredients
 
-# IDEA: If weekend allow healthy in selecting/generating meals
+# IDEA: If weekend allow not healthy in selecting/generating meals
 
 
 
@@ -228,4 +223,4 @@ end
 # recipe.serialize
 
 
-# IDEA: Give it a series of ingredients and find recipes containing those items
+# IDEA: Display recipes containing >= 1 of a list of ingredients entered, in order of most ingredients found
