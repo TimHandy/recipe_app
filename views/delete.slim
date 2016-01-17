@@ -1,0 +1,9 @@
+- if @recipe
+  p Are you sure you want to delete the following recipe: "#{@recipe.name}"
+  form action="/#{@recipe.id}" method="post"
+    input type="hidden" name="_method" value="delete"
+    input type="submit" value="Yes, Delete It!"
+    p
+    a href="/recipes/#{@recipe.id}" Cancel
+- else
+  p Recipe not found.

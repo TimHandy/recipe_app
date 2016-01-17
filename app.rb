@@ -53,7 +53,7 @@ put '/recipes/:id' do
   id = params['id'].to_i
 	@recipe = store.find(id)
 
-	@recipe = Recipe.new
+	# @recipe = Recipe.new # this was causing edits to create a new recipe rather than editing.
 	@recipe.name = params['title'].split(/(\W)/).map(&:capitalize).join # only way to convert to titlecase
 	@recipe.type = params['type'].capitalize
 	@recipe.serves = params['serves']
@@ -70,7 +70,7 @@ end
 get '/recipes/:id/edit' do
 	id = params['id'].to_i
 	@recipe = store.find(id)
-	erb :edit
+	slim :edit
 end
 
 # TODO: Need to be able to delete an existing recipe
@@ -80,7 +80,7 @@ get '/recipes/:id/delete' do
 	@recipe = store.find(id)
 	@title = "Confirm deletion of recipe"
 	if @recipe
-	  erb :delete
+	  slim :delete
 	else
 	  redirect '/', :error => "Can't find that recipe."
 	end
