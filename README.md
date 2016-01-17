@@ -1,5 +1,7 @@
 # Recipes App
 
+A noob attempt at a CRUD app in Ruby using Sinatra and Slim.
+
 From the root in cmd, run:
   shotgun -I lib app.rb
 
