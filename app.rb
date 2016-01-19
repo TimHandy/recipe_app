@@ -102,3 +102,5 @@ delete '/:id' do
     redirect '/', :error => "Error deleting recipe."
   end
 end
+
+# TODO: option to export all recipes to csv.

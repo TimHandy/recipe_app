@@ -1,8 +1,9 @@
 h1 == @title
 a href="/recipes/new" Add New Recipe
+p
 p TODO: List of recipes by category: Main/Dessert/Side
-ul
 
+ul
   - @recipes.sort{ |a,b| a.name <=> b.name }.each do |recipe|
     li: a href="recipes/#{recipe.id}" #{recipe.name}
 
