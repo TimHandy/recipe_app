@@ -172,16 +172,3 @@
   comments: Need a powerful processor or it won't go creamy. store in a jar or other
     airtight container.
   id: 24
-25: !ruby/object:Recipe
-  name: Asdf
-  date_added: 2016-01-21 06:50:32.888516999 +00:00
-  healthy: true
-  ingredients: Asdf
-  instructions: Asdf
-  type: Asdf
-  serves: asdf
-  protein_source: Asdf
-  prep_time: asdf
-  cook_time: asdf
-  comments: Asdf
-  id: 25
