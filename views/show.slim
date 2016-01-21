@@ -17,21 +17,28 @@ table
   tr
     td: strong Cook Time:
     td = @recipe.cook_time
-  tr
-    td: strong Ingredients:
-    td 
-      - @ingredients_arr.each do |ingredient|
-        = "#{ingredient.capitalize}"
-        br
-  tr
-    td: strong Instructions:
-    td = @recipe.instructions
-  tr
-    td: strong Comments:
-    td = @recipe.comments
+p  
+    
+strong Ingredients
+p 
+- @ingredients_arr.each do |ingredient|
+  = "#{ingredient.capitalize}"
+  br
+p
 
+strong Instructions
 p
-  a href="/recipes/#{@recipe.id}/edit" Edit Recipe</a> or 
-  a href="/recipes/#{@recipe.id}/delete" Delete Recipe
+= @recipe.instructions
 p
-a href="/recipes" Back to Index
+
+strong Comments
+p
+= @recipe.comments
+p
+p --------------------------------------
+p
+a class="btn btn-primary" href="/recipes/#{@recipe.id}/edit" Edit Recipe
+p
+a class="btn btn-danger" href="/recipes/#{@recipe.id}/delete" Delete Recipe
+p
+a class="btn btn-primary" href="/recipes" Back to Index

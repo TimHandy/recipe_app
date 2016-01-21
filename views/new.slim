@@ -1,36 +1,37 @@
 h1 == @title
 
-form action="/recipes/create" method="post" 
-  table
-    tr
-      td: label for="title" Title:
-      td: input type="text" name="title"
-    tr
-      td: label for="title" Type: (Main/Dessert/Side)
-      td: input type="text" name="type"
-    tr
-      td: label for="title" Protein Source:
-      td: input type="text" name="protein_source"
-    tr
-      td: label for="title" Serves:
-      td: input type="text" name="serves"
-    tr
-      td: label for="title" Prep Time:
-      td: input type="text" name="prep_time"
-    tr
-      td: label for="title" Cook Time:
-      td: input type="text" name="cook_time" 
-    tr
-      td: label for="ingredients" Ingredients:
-      td: textarea cols="50" rows="10" name="ingredients" placeholder="Separate ingredients with commas, e.g. Flour 50g, Sultanas 20g, ..."
-    tr
-      td: label for="instructions" Instructions:
-      td: textarea cols="50" rows="10" name="instructions" placeholder="Instructions..."  
-    tr
-      td: label for="comments" Comments:
-      td: textarea cols="50" rows="10" name="comments" placeholder="Comments..."
-    tr
-      td
-      td: input type="submit" value="+ Add Recipe" 
-
-a href="/recipes" Back to Index
+a class="btn btn-primary" href="/recipes" Back to Index
+p
+div class="container"
+  div class="row"
+    div class="col-xs-12"
+      form action="/recipes/create" method="post"
+        div class="form-group"
+          label for="title" Title
+          input type="text" class="form-control" name="title"
+          
+          label for="title" Type: (Main/Dessert/Side)
+          input type="text" class="form-control" name="type"
+        
+          label for="title" Protein Source:
+          input type="text" class="form-control" name="protein_source"
+        
+          label for="title" Serves:
+          input type="text" class="form-control" name="serves"
+        
+          label for="title" Prep Time:
+          input type="text" class="form-control" name="prep_time"
+        
+          label for="title" Cook Time:
+          input type="text" class="form-control" name="cook_time" 
+          
+          label for="ingredients" Ingredients:
+          textarea cols="50" rows="10" name="ingredients" class="form-control" placeholder="Separate ingredients with commas, e.g. Flour 50g, Sultanas 20g, ..."
+        
+          label for="instructions" Instructions:
+          textarea cols="50" rows="10" name="instructions" class="form-control" placeholder="Instructions..."  
+        
+          label for="comments" Comments:
+          textarea cols="50" rows="10" name="comments" class="form-control" placeholder="Comments..."
+        
+          input type="submit" value="Save" class="btn btn-default"

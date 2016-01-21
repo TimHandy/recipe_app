@@ -1,5 +1,45 @@
 h1 == @title
 
+div class="container"
+  div class="row"
+    div class="col-xs-12"
+    form action="/recipes/#{@recipe.id}" method="post" id="edit"
+      input type="hidden" name="_method" value="put"
+          label for="title" Title:
+          input type="text" class="form-control" name="title" value="#{@recipe.name}"
+         
+          label for="title" Type: (Main/Dessert/Side)
+          input type="text" class="form-control" name="type" value="#{@recipe.type}" 
+         
+          label for="title" Serves:
+          input type="text" class="form-control" name="serves" value="#{@recipe.serves}" 
+         
+          label for="title" Protein Source:
+          input type="text" class="form-control" name="protein_source" value="#{@recipe.protein_source}" 
+         
+          label for="title" Prep Time:
+          input type="text" class="form-control" name="prep_time" value="#{@recipe.prep_time}"
+         
+          label for="title" Cook Time:
+          input type="text" class="form-control" name="cook_time" value="#{@recipe.cook_time}"
+         
+          label for="ingredients" Ingredients:
+          textarea cols="50" rows="10" class="form-control" name="ingredients" #{@recipe.ingredients}
+         
+          label for="instructions" Instructions:
+          textarea cols="50" rows="10" class="form-control" name="instructions" #{@recipe.instructions}
+         
+          label for="comments" Comments:
+          textarea cols="50" rows="10" class="form-control" name="comments" #{@recipe.comments}
+             
+          input type="submit" value="Update Recipe" class="btn btn-default"
+          p
+          a class="btn btn-primary" href="/recipes" Cancel
+    
+    
+    
+    
+
 form action="/recipes/#{@recipe.id}" method="post" id="edit"
   input type="hidden" name="_method" value="put"
     table
@@ -32,5 +72,5 @@ form action="/recipes/#{@recipe.id}" method="post" id="edit"
         td: textarea cols="50" rows="10" name="comments" #{@recipe.comments}
       tr   
         td
-        td: input type="submit" value="Update Recipe" 
-    a href="/recipes" Cancel
+        td: input type="submit" value="Update Recipe" class="btn btn-default"
+    a class="btn btn-primary" href="/recipes" Cancel

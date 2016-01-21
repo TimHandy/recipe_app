@@ -79,7 +79,6 @@ get '/recipes/:id/edit' do
 	slim :edit
 end
 
-# TODO: Need to be able to delete an existing recipe
 # Get route for deleting a recipe
 get '/recipes/:id/delete' do
 	id = params['id'].to_i
@@ -104,3 +103,4 @@ delete '/:id' do
 end
 
 # TODO: option to export all recipes to csv.
+# TODO: add some bootstrap formatting
