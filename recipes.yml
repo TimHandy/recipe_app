@@ -96,13 +96,14 @@
   name: Potatoes And Cheese
   date_added: 2016-01-11 20:14:51.192844612 +00:00
   healthy: true
-  ingredients: ''
-  instructions: ''
-  type: ''
-  serves: ''
-  protein_source: ''
-  prep_time: ''
-  cook_time: ''
+  ingredients: Potatoes, cheese
+  instructions: Cook it yeah!
+  type: Main
+  serves: '4'
+  protein_source: Cheese
+  prep_time: '10'
+  cook_time: '20'
+  comments: Mmm
   id: 9
 20: !ruby/object:Recipe
   name: Chicken Pie
@@ -172,3 +173,44 @@
   comments: Need a powerful processor or it won't go creamy. store in a jar or other
     airtight container.
   id: 24
+25: !ruby/object:Recipe
+  name: Hazelnut Chocolate Porridge
+  date_added: 2016-01-24 11:42:07.143818956 +00:00
+  healthy: true
+  ingredients: Half mug of oats (and a sprinkle of jumbo oats), 1 mug almond milk,
+    big teaspoon of homemade hazelnut chocolate spread, handful of raisins/sultanas
+  instructions: Chuck it all in a bowl, microwave on full power for 2 min, stir and
+    microwave for a further 1 min. leave to thicken for a few mins before eating.
+  type: Breakfast
+  serves: '1'
+  protein_source: Hazelnuts
+  prep_time: '2'
+  cook_time: '3'
+  comments: See the hazelnut chocolate spread recipe.
+  id: 25
+26: !ruby/object:Recipe
+  name: Hazelnut Chocolate Spread
+  date_added: 2016-01-24 11:43:27.805247999 +00:00
+  healthy: true
+  ingredients: Hazelnuts, raw cocoa powder
+  instructions: Ask jade.
+  type: Side
+  serves: lots
+  protein_source: Hazelnuts
+  prep_time: '20'
+  cook_time: '0'
+  comments: It's yummy
+  id: 26
+27: !ruby/object:Recipe
+  name: Pine Nut Mushrooms, Roasted Parsnips, And Carrot & Swede Mash
+  date_added: 2016-01-24 11:47:43.938401576 +00:00
+  healthy: true
+  ingredients: ''
+  instructions: ''
+  type: Main
+  serves: '2'
+  protein_source: Pine nuts
+  prep_time: ''
+  cook_time: ''
+  comments: ''
+  id: 27

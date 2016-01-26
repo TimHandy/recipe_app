@@ -1,9 +1,13 @@
-- if @recipe
-  p Are you sure you want to delete the following recipe: "#{@recipe.name}"
-  form action="/#{@recipe.id}" method="post"
-    input type="hidden" name="_method" value="delete"
-    input class="btn btn-danger" type="submit" value="Yes, Delete It!"
-    p
-    a class="btn btn-primary" href="/recipes/#{@recipe.id}" Cancel
-- else
-  p Recipe not found.
+div class="container"
+  div class="row"
+    div class="col-xs-12"
+
+      - if @recipe
+        p Are you sure you want to delete the following recipe: "#{@recipe.name}"
+        form action="/#{@recipe.id}" method="post"
+          input type="hidden" name="_method" value="delete"
+          input class="btn btn-danger" type="submit" value="Yes, Delete It!"
+          p
+          a class="btn btn-primary" href="/recipes/#{@recipe.id}" Cancel
+      - else
+        p Recipe not found.

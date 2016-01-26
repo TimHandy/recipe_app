@@ -1,44 +1,48 @@
-h1 = @recipe.name
-/TODO: photo upload and display
-p PLACEHOLDER FOR RECIPE PHOTO
-table
-  tr
-    td: strong Name:
-    td = @recipe.name
-  tr
-    td: strong Type:
-    td = @recipe.type
-  tr
-    td: strong Serves:
-    td = @recipe.serves
-  tr
-    td: strong Prep Time:
-    td = @recipe.prep_time
-  tr
-    td: strong Cook Time:
-    td = @recipe.cook_time
-p  
-    
-strong Ingredients
-p 
-- @ingredients_arr.each do |ingredient|
-  = "#{ingredient.capitalize}"
-  br
-p
+div class="container"
+  div class="row"
+    div class="col-xs-12"
 
-strong Instructions
-p
-= @recipe.instructions
-p
+      h1 = @recipe.name
+      /TODO: photo upload and display
+      p PLACEHOLDER FOR RECIPE PHOTO
+      table
+        tr
+          td: strong Name:
+          td = @recipe.name
+        tr
+          td: strong Type:
+          td = @recipe.type
+        tr
+          td: strong Serves:
+          td = @recipe.serves
+        tr
+          td: strong Prep Time:
+          td = @recipe.prep_time
+        tr
+          td: strong Cook Time:
+          td = @recipe.cook_time
+      p  
+          
+      strong Ingredients
+      p 
+      - @ingredients_arr.each do |ingredient|
+        = "#{ingredient.capitalize}"
+        br
+      p
 
-strong Comments
-p
-= @recipe.comments
-p
-p --------------------------------------
-p
-a class="btn btn-primary" href="/recipes/#{@recipe.id}/edit" Edit Recipe
-p
-a class="btn btn-danger" href="/recipes/#{@recipe.id}/delete" Delete Recipe
-p
-a class="btn btn-primary" href="/recipes" Back to Index
+      strong Instructions
+      p
+      = @recipe.instructions
+      p
+
+      strong Comments
+      p
+      = @recipe.comments
+      p
+      p --------------------------------------
+      p
+      a class="btn btn-primary" href="/recipes/#{@recipe.id}/edit" Edit Recipe
+      p
+      a class="btn btn-danger" href="/recipes/#{@recipe.id}/delete" Delete Recipe
+      p
+      a class="btn btn-primary" href="/recipes" Back to Index

@@ -40,7 +40,7 @@ post('/recipes/create') do
 	@recipe.instructions = params['instructions'].capitalize
 	@recipe.comments = params['comments'].capitalize
 	store.save(@recipe)
-	redirect '/recipes/new'
+	redirect '/recipes'
 end
 
 get('/recipes/:id') do
