@@ -1,6 +1,8 @@
 require 'sinatra'
+# these need to be require_relative or else heroku complains
 require_relative './lib/recipe'
 require_relative './lib/recipe_store'
+# not sure whether these will need to be hypenated as per the gemfile listing?
 require 'sinatra/flash'
 require 'sinatra/redirect_with_flash'
 
