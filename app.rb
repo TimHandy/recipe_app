@@ -1,10 +1,10 @@
 require 'sinatra'
-require 'shotgun'
 require 'recipe'
 require 'recipe_store'
 require 'sinatra/flash'
 require 'sinatra/redirect_with_flash'
 require 'pry'
+
 
 store = RecipeStore.new('recipes.yml')
 
