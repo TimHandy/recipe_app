@@ -192,10 +192,13 @@
   name: Hazelnut Chocolate Spread
   date_added: 2016-01-24 11:43:27.805247999 +00:00
   healthy: true
-  ingredients: Hazelnuts, raw cocoa powder
-  instructions: Ask jade.
+  ingredients: Hazelnuts, raw cocoa powder, maple syrup, water
+  instructions: Preheat oven to 200 degrees and roast the hazelnuts for 10 minutes.
+    allow to cool slightly. place these in a strong food processor with the maple
+    syrup & cacoa powder and blitz until smooth. once combined add the water and blend
+    again.
   type: Side
-  serves: lots
+  serves: 1 Jar
   protein_source: Hazelnuts
   prep_time: '20'
   cook_time: '0'
@@ -214,3 +217,16 @@
   cook_time: ''
   comments: ''
   id: 27
+28: !ruby/object:Recipe
+  name: Fish Curry
+  date_added: 2016-01-30 14:03:39.506474635 +00:00
+  healthy: true
+  ingredients: ''
+  instructions: ''
+  type: Main
+  serves: 2-3
+  protein_source: Fish
+  prep_time: ''
+  cook_time: ''
+  comments: ''
+  id: 28
