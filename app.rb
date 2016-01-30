@@ -7,6 +7,17 @@ require 'sinatra/flash'
 require 'sinatra/redirect_with_flash'
 
 
+helpers do
+
+	def css(*stylesheets)
+		stylesheets.map do |stylesheet|
+			"<link href=\"/#{stylesheet}\" media=\"screen, projection\"  rel=\"stylesheet\" />"
+		end.join
+	end
+
+end
+
+
 store = RecipeStore.new('recipes.yml')
 
 get ('/') do
