@@ -1,6 +1,6 @@
 require 'sinatra'
 require_relative './lib/recipe'
-require '.lib/recipe_store'
+require_relative './lib/recipe_store'
 require 'sinatra/flash'
 require 'sinatra/redirect_with_flash'
 
