@@ -1,0 +1,232 @@
+---
+2: !ruby/object:Recipe
+  name: Barbeque Chicken Pizza
+  date_added: 2015-12-13 15:22:04.681110024 +00:00
+  healthy: true
+  ingredients: Meat stuff 100g, flour 200ml, eggs x3, water, 100ml, tomato sauce 100ml
+  instructions: "This is how we do it.... , then we do the other, stick it in the
+    oven, and now it's done!\r\n\r\nlorem ipsum dolor sit amet, consectetur adipiscing
+    elit. etiam tincidunt imperdiet arcu vitae mattis. nullam eu dignissim justo.
+    in nulla magna, blandit rhoncus condimentum non, porta a ligula. aliquam id lacus
+    in tellus ornare lacinia nec et tortor. duis ultricies elementum purus, vitae
+    vestibulum sem maximus ut. mauris accumsan accumsan sollicitudin. proin sed massa
+    in eros semper ultricies sit amet vitae risus. nam aliquam dolor justo, sed rutrum
+    ante fringilla accumsan. aliquam at nisl metus. donec mi mauris, tincidunt vitae
+    tincidunt non, semper ut neque. nunc pulvinar sapien orci, et posuere arcu fringilla
+    at. vestibulum sed posuere lectus, non bibendum libero. cras dignissim semper
+    nulla, eget efficitur leo lobortis at. curabitur elementum orci venenatis metus
+    pharetra, non congue mauris scelerisque. sed id metus magna.\r\n\r\nut in pharetra
+    eros. praesent a venenatis lacus. praesent molestie nisi at eros ornare condimentum.
+    integer eget lectus quam. phasellus elit neque, ultricies quis rutrum sed, fringilla
+    et velit. quisque at libero eros. ut quis eleifend ex. suspendisse vel felis ex.
+    vivamus non augue a tortor pellentesque bibendum in at dui. mauris a sem eget
+    magna aliquam scelerisque quis et mi."
+  type: Main
+  serves: '1'
+  protein_source: Chicken
+  prep_time: '5'
+  cook_time: '25'
+  comments: "Ooh pizza is good.\r\n\r\nlorem ipsum dolor sit amet, consectetur adipiscing
+    elit. etiam tincidunt imperdiet arcu vitae mattis. nullam eu dignissim justo.
+    in nulla magna, blandit rhoncus condimentum non, porta a ligula. aliquam id lacus
+    in tellus ornare lacinia nec et tortor. duis ultricies elementum purus, vitae
+    vestibulum sem maximus ut. mauris accumsan accumsan sollicitudin. proin sed massa
+    in eros semper ultricies sit amet vitae risus. nam aliquam dolor justo, sed rutrum
+    ante fringilla accumsan. aliquam at nisl metus. donec mi mauris, tincidunt vitae
+    tincidunt non, semper ut neque. nunc pulvinar sapien orci, et posuere arcu fringilla
+    at. vestibulum sed posuere lectus, non bibendum libero. cras dignissim semper
+    nulla, eget efficitur leo lobortis at. curabitur elementum orci venenatis metus
+    pharetra, non congue mauris scelerisque. sed id metus magna.\r\n\r\nut in pharetra
+    eros. praesent a venenatis lacus. praesent molestie nisi at eros ornare condimentum.
+    integer eget lectus quam. phasellus elit neque, ultricies quis rutrum sed, fringilla
+    et velit. quisque at libero eros. ut quis eleifend ex. suspendisse vel felis ex.
+    vivamus non augue a tortor pellentesque bibendum in at dui. mauris a sem eget
+    magna aliquam scelerisque quis et mi."
+  id: 2
+3: !ruby/object:Recipe
+  name: Custard
+  date_added: 2015-12-13 15:26:07.711412778 +00:00
+  healthy: false
+  ingredients: egg, flour, sugar
+  instructions: Beat it
+  type: Dessert
+  serves: 50ml
+  protein_source: ''
+  prep_time: '3'
+  cook_time: '5'
+  id: 3
+4: !ruby/object:Recipe
+  name: Sausage Pasta
+  date_added: 2015-12-13 15:38:41.110671860 +00:00
+  healthy: true
+  ingredients: sausage stuff 100g, Flour 200ml, Eggs x3
+  instructions: This is how we do it.... , then we do the other, and now it's done!
+  type: Main
+  protein_source: Sausage
+  prep_time: '10'
+  cook_time: '25'
+  id: 4
+5: !ruby/object:Recipe
+  name: Meatballs
+  date_added: 2015-12-13 15:40:38.919047454 +00:00
+  healthy: true
+  ingredients: Meat stuff 100g, garlic, flour 200ml, eggs x3
+  instructions: 'This is how we do it.... , then we do the other, and now it''s done!  '
+  type: Main
+  serves: ''
+  protein_source: Beef
+  prep_time: '5'
+  cook_time: '25'
+  comments: "  "
+  id: 5
+7: !ruby/object:Recipe
+  name: Vegan Chicken
+  date_added: 2016-01-09 13:14:37.498091097 +00:00
+  healthy: true
+  ingredients: Quorn, pastry, veg, spices, rice
+  instructions: Make pastry, cook, do rice
+  type: Main
+  serves: ''
+  protein_source: Quorn
+  prep_time: '10'
+  cook_time: '20'
+  comments: It tastes like chicken
+  id: 7
+9: !ruby/object:Recipe
+  name: Potatoes And Cheese
+  date_added: 2016-01-11 20:14:51.192844612 +00:00
+  healthy: true
+  ingredients: Potatoes, cheese
+  instructions: Cook it yeah!
+  type: Main
+  serves: '4'
+  protein_source: Cheese
+  prep_time: '10'
+  cook_time: '20'
+  comments: Mmm
+  id: 9
+20: !ruby/object:Recipe
+  name: Chicken Pie
+  date_added: 2016-01-16 15:03:14.154408744 +00:00
+  healthy: true
+  ingredients: Meat stuff 100g, flour 200ml, eggs x3
+  instructions: 'This is how we do it.... , then we do the other, and now it''s done!    '
+  type: Main
+  serves: '4'
+  protein_source: Chicken
+  prep_time: '25'
+  cook_time: '40'
+  comments: Adsfgh
+  id: 20
+21: !ruby/object:Recipe
+  name: Hummous
+  date_added: 2016-01-17 15:43:00.580535260 +00:00
+  healthy: true
+  ingredients: Chick peas, chilli, something else, garlic
+  instructions: Do stuff to it
+  type: Side
+  serves: '4'
+  protein_source: Chick pea
+  prep_time: '20'
+  cook_time: '0'
+  comments: 'It''s nicey '
+  id: 21
+22: !ruby/object:Recipe
+  name: Soup
+  date_added: 2016-01-17 16:24:08.149914016 +00:00
+  healthy: true
+  ingredients: Lentils 50g, toothpaste 1 tube, tomatoes x5
+  instructions: Boil it up, zshush it.
+  type: Main
+  serves: '2'
+  protein_source: Lentils
+  prep_time: '15'
+  cook_time: '20'
+  comments: It's minty fresh!
+  id: 22
+23: !ruby/object:Recipe
+  name: Guacamole
+  date_added: 2016-01-17 17:03:53.582737754 +00:00
+  healthy: true
+  ingredients: Avacado x1 medium, garlic, lime
+  instructions: Mash it ta-gevver
+  type: Side
+  serves: '2'
+  protein_source: Avacado
+  prep_time: '10'
+  cook_time: '0'
+  comments: Needs tortilla chips.
+  id: 23
+24: !ruby/object:Recipe
+  name: Almond Butter
+  date_added: 2016-01-17 18:24:20.532008602 +00:00
+  healthy: true
+  ingredients: Almonds 400g, salt 1/2 teaspoon
+  instructions: Preheat oven to 180 degrees fan, put almonds on baking tray and roast
+    for 10 min. allow to cool. put in powerful food processor for 15min with salt,
+    occasionally stopping to mix. blend until thick and creamy.
+  type: Side
+  serves: 1 jar
+  protein_source: Almonds
+  prep_time: '0'
+  cook_time: '25'
+  comments: Need a powerful processor or it won't go creamy. store in a jar or other
+    airtight container.
+  id: 24
+25: !ruby/object:Recipe
+  name: Hazelnut Chocolate Porridge
+  date_added: 2016-01-24 11:42:07.143818956 +00:00
+  healthy: true
+  ingredients: Half mug of oats (and a sprinkle of jumbo oats), 1 mug almond milk,
+    big teaspoon of homemade hazelnut chocolate spread, handful of raisins/sultanas
+  instructions: Chuck it all in a bowl, microwave on full power for 2 min, stir and
+    microwave for a further 1 min. leave to thicken for a few mins before eating.
+  type: Breakfast
+  serves: '1'
+  protein_source: Hazelnuts
+  prep_time: '2'
+  cook_time: '3'
+  comments: See the hazelnut chocolate spread recipe.
+  id: 25
+26: !ruby/object:Recipe
+  name: Hazelnut Chocolate Spread
+  date_added: 2016-01-24 11:43:27.805247999 +00:00
+  healthy: true
+  ingredients: Hazelnuts, raw cocoa powder, maple syrup, water
+  instructions: Preheat oven to 200 degrees and roast the hazelnuts for 10 minutes.
+    allow to cool slightly. place these in a strong food processor with the maple
+    syrup & cacoa powder and blitz until smooth. once combined add the water and blend
+    again.
+  type: Side
+  serves: 1 Jar
+  protein_source: Hazelnuts
+  prep_time: '20'
+  cook_time: '0'
+  comments: It's yummy
+  id: 26
+27: !ruby/object:Recipe
+  name: Pine Nut Mushrooms, Roasted Parsnips, And Carrot & Swede Mash
+  date_added: 2016-01-24 11:47:43.938401576 +00:00
+  healthy: true
+  ingredients: ''
+  instructions: ''
+  type: Main
+  serves: '2'
+  protein_source: Pine nuts
+  prep_time: ''
+  cook_time: ''
+  comments: ''
+  id: 27
+28: !ruby/object:Recipe
+  name: Fish Curry
+  date_added: 2016-01-30 14:03:39.506474635 +00:00
+  healthy: true
+  ingredients: ''
+  instructions: ''
+  type: Main
+  serves: 2-3
+  protein_source: Fish
+  prep_time: ''
+  cook_time: ''
+  comments: ''
+  id: 28
