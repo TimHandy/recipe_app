@@ -1,5 +1,4 @@
 require 'yaml'
-require 'pry'
 require 'slim'
 
 
@@ -13,7 +12,7 @@ require 'slim'
 # 		  	recipes << item
 # 			end
 # 		end
-# 	end
+# 	endrequire
 # 	  # recipes.each do |recipe|
 # 		# 	puts recipe.inspect
 # 		# 	puts
