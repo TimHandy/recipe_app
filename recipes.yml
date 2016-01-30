@@ -80,7 +80,7 @@
   comments: "  "
   id: 5
 7: !ruby/object:Recipe
-  name: Vegan Chicken
+  name: Vegan Chicken Hash
   date_added: 2016-01-09 13:14:37.498091097 +00:00
   healthy: true
   ingredients: Quorn, pastry, veg, spices, rice
