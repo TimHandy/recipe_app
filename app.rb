@@ -1,5 +1,5 @@
 require 'sinatra'
-require 'recipe'
+require_relative 'recipe'
 require 'recipe_store'
 require 'sinatra/flash'
 require 'sinatra/redirect_with_flash'
