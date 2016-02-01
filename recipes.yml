@@ -230,3 +230,16 @@
   cook_time: ''
   comments: ''
   id: 28
+29: !ruby/object:Recipe
+  name: Aubourgine Lentil Curry
+  date_added: 2016-01-31 14:34:04.748195409 +00:00
+  healthy: true
+  ingredients: ''
+  instructions: ''
+  type: Main
+  serves: '6'
+  protein_source: Lentil
+  prep_time: '3000'
+  cook_time: '2000'
+  comments: ''
+  id: 29

@@ -9,14 +9,3 @@ div class="container"
       ul
         - @recipes.sort{ |a,b| a.name <=> b.name }.each do |recipe|
           li: a href="recipes/#{recipe.id}" #{recipe.name}
-
-      p ----------- Notes -----------------------------------
-      p TODO: Display mealplan for the week - 6 random main course recipes, include 2 fish and 1 red meat etc, must contain a Tim's favorite. 
-      p TODO: Display out the ingredients for the 6 meals by checking against shopping list
-      p IDEA: Display mealplan without garlic
-      p IDEA: Display a random dinner / pick a random favourite
-      p IDEA: Display recipes containing the word/s x in name
-      p IDEA: If weekend allow not healthy in selecting/generating meals
-      p IDEA: Display vege/vegan meals
-      p IDEA: Display recipes containing >= 1 of a list of ingredients entered, in order of most ingredients found
-      p TODO: Add a search function. Think bootstrap has this? Not sure about the engine though.

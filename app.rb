@@ -116,3 +116,12 @@ end
 
 # TODO: option to export all recipes to csv.
 # TODO: add some bootstrap formatting
+# TODO: Display mealplan for the week - 6 random main course recipes, include 2 fish and 1 red meat etc, must contain a Tim's favorite.
+# TODO: Display out the ingredients for the 6 meals by checking against shopping list
+# IDEA: Display mealplan without garlic
+# IDEA: Display a random dinner / pick a random favourite
+# IDEA: Display recipes containing the word/s x in name
+# IDEA: If weekend allow not healthy in selecting/generating meals
+# IDEA: Display vege/vegan meals
+# IDEA: Display recipes containing >= 1 of a list of ingredients entered, in order of most ingredients found
+# TODO: Add a search function. Think bootstrap has this? Not sure about the engine though.
