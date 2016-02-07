@@ -256,3 +256,16 @@
   cook_time: ''
   comments: ''
   id: 30
+31: !ruby/object:Recipe
+  name: Asdf
+  date_added: 2016-02-07 15:44:33.001976711 +00:00
+  healthy: true
+  ingredients: ''
+  instructions: ''
+  type: ''
+  serves: ''
+  protein_source: ''
+  prep_time: ''
+  cook_time: ''
+  comments: ''
+  id: 31

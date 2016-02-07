@@ -114,7 +114,7 @@ delete '/:id' do
   end
 end
 
-# TODO: option to export all recipes to csv.
+# IDEA: option to export all recipes to csv.
 # TODO: add some bootstrap formatting
 # TODO: Display mealplan for the week - 6 random main course recipes, include 2 fish and 1 red meat etc, must contain a Tim's favorite.
 # TODO: Display out the ingredients for the 6 meals by checking against shopping list

@@ -21,3 +21,6 @@ div class="container"
         li: a href="recipes/#{recipe.id}" #{recipe.name}
       
   
+h2 All Recipes
+- @recipes.sort{ |a,b| a.name <=> b.name }.each do |recipe|
+  li: a href="recipes/#{recipe.id}" #{recipe.name}
