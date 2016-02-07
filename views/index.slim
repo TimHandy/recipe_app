@@ -4,8 +4,20 @@ div class="container"
       h1 == @title
       a class="btn btn-success" href="/recipes/new" + New Recipe
       p
-      p TODO: List of recipes by category: Main/Dessert/Side
 
-      ul
-        - @recipes.sort{ |a,b| a.name <=> b.name }.each do |recipe|
-          li: a href="recipes/#{recipe.id}" #{recipe.name}
+div class="container"
+  div class="row"
+    div class="col-sm-4"
+      h2 Main Courses
+      - @recipes.select{|recipe| recipe.type == "Main"}.sort{ |a,b| a.name <=> b.name }.each do |recipe|
+        li: a href="recipes/#{recipe.id}" #{recipe.name}
+    div class="col-sm-4"
+      h2 Desserts
+      - @recipes.select{|recipe| recipe.type == "Dessert"}.sort{ |a,b| a.name <=> b.name }.each do |recipe|
+        li: a href="recipes/#{recipe.id}" #{recipe.name}
+    div class="col-sm-4"
+      h2 Sides
+      - @recipes.select{|recipe| recipe.type == "Side"}.sort{ |a,b| a.name <=> b.name }.each do |recipe|
+        li: a href="recipes/#{recipe.id}" #{recipe.name}
+      
+  

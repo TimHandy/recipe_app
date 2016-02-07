@@ -205,7 +205,7 @@
   comments: It's yummy
   id: 26
 27: !ruby/object:Recipe
-  name: Pine Nut Mushrooms, Roasted Parsnips, And Carrot & Swede Mash
+  name: Pine Nut Mushrooms
   date_added: 2016-01-24 11:47:43.938401576 +00:00
   healthy: true
   ingredients: ''
@@ -243,3 +243,16 @@
   cook_time: '2000'
   comments: ''
   id: 29
+30: !ruby/object:Recipe
+  name: Pancakes
+  date_added: 2016-02-07 15:40:45.204907386 +00:00
+  healthy: true
+  ingredients: ''
+  instructions: ''
+  type: Dessert
+  serves: ''
+  protein_source: ''
+  prep_time: ''
+  cook_time: ''
+  comments: ''
+  id: 30
