@@ -223,3 +223,5 @@ end
 
 
 # IDEA: Display recipes containing >= 1 of a list of ingredients entered, in order of most ingredients found
+
+# TODO: Add Font Awesome icons to buttons, trash, update etc.
